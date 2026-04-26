@@ -8,14 +8,11 @@ A simple web application to generate random lottery numbers.
 
 *   Generates 6 unique random numbers between 1 and 45.
 *   Displays the generated numbers in a visually appealing way.
+*   Dark/Light mode toggle with local storage persistence.
 
-## Current Task: Dark/Light Mode Toggle
+## Current Task: Partnership Inquiry Form
 
-*   **Goal:** Add a toggle switch to allow users to switch between a light and dark theme.
-*   **HTML:** Add a toggle switch to the `index.html` file.
-*   **CSS:** 
-    *   Use CSS variables to define color palettes for both light and dark modes.
-    *   Style the toggle switch.
-*   **JavaScript:**
-    *   Implement the logic to toggle the theme.
-    *   Save the user's theme preference in local storage.
+*   **Goal:** Add a contact form for partnership inquiries using Formspree.
+*   **HTML:** Add a form to `index.html` with fields for email and a message.
+*   **CSS:** Style the form to match the existing light and dark themes.
+*   **Formspree:** The form will submit to the provided URL: `https://formspree.io/f/xvzdyddn`.
