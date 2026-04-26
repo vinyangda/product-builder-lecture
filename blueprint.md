@@ -1,19 +1,21 @@
-
 # Lotto Number Generator
 
 ## Overview
 
-This project is a simple web application that generates and displays random lottery numbers. It is built using modern web technologies, including HTML, CSS, and JavaScript, with a focus on a clean, responsive, and visually appealing user experience.
+A simple web application to generate random lottery numbers.
 
 ## Implemented Features
 
-*   **Modern Design:** The application features a contemporary design with a visually balanced layout, custom fonts, and a vibrant color scheme.
-*   **Interactive Elements:** A prominent "Generate Numbers" button allows users to trigger the lottery number generation.
-*   **Responsive Layout:** The application is designed to work seamlessly across various screen sizes, from mobile devices to desktops.
-*   **Dynamic Number Display:** The generated lottery numbers are dynamically displayed on the screen.
+*   Generates 6 unique random numbers between 1 and 45.
+*   Displays the generated numbers in a visually appealing way.
 
-## Development Plan
+## Current Task: Dark/Light Mode Toggle
 
-*   **HTML Structure:** Create the main user interface with a title, a button to generate numbers, and a container to display the generated numbers.
-*   **CSS Styling:** Apply modern CSS techniques to create a visually appealing and responsive design.
-*   **JavaScript Logic:** Implement the core functionality to generate random lottery numbers and update the UI.
+*   **Goal:** Add a toggle switch to allow users to switch between a light and dark theme.
+*   **HTML:** Add a toggle switch to the `index.html` file.
+*   **CSS:** 
+    *   Use CSS variables to define color palettes for both light and dark modes.
+    *   Style the toggle switch.
+*   **JavaScript:**
+    *   Implement the logic to toggle the theme.
+    *   Save the user's theme preference in local storage.
